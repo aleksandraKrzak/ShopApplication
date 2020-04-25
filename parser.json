@@ -1,0 +1,5 @@
+{
+  "batch.taskletType": "org.springframework.batch.core.step.item.ChunkOrientedTasklet",
+  "reader.read.count": 24,
+  "batch.stepType": "org.springframework.batch.core.step.tasklet.TaskletStep"
+}

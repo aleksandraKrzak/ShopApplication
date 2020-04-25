@@ -1,0 +1,5 @@
+<form [formGroup]="registerForm">
+  <formly-form [fields]="registerFields" [form]="registerForm"></formly-form>
+  <button mat-raised-button color="primary" [disabled]="!registerForm.valid"
+    (click)="registration()">Registration</button>
+</form>
